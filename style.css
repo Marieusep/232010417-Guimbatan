@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: calibri;
+}
+
+body{
+    background: rgb(144, 211, 170);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 950px;
+    min-height: 1000px;
+    background: #fff;
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.2) ;
+}
+
+.container .left{
+    position:relative;
+    background: #1d776b;
+    padding: 70px;
+}
+
+.container .right{
+    position: relative;
+    background: #ffffff;
+    padding: 50px;
+}
+
+.profile{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px rgba(255,255,255,0.2);
+}
+
+.profile .profileImg{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile h2{
+    color: #fff;
+    font-size: 1.cm;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.Info{
+    padding: 20px;
+}
+
+.title{
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.4;
+    margin-bottom: 20px;
+}
+
+.Info ul{
+    position: relative;
+}
+
+.Info ul li{
+    position: relative;
+    list-style: none;
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+.Info ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 20px;
+    color: aquamarine;
+}
+
+.Info ul li span{
+    color: #fff;
+    font-weight: 200;
+}
+
+.Info.education li{
+    margin-bottom: 15px;
+}
+
+.about{
+    margin-bottom: 30px;
+}
+
+.title2{
+    color: #333;
+    font-weight: 600;
+    letter-spacing: 0.4;
+    text-transform: uppercase;
+}
+
+.interests ul li{
+    list-style: none;
+    font-weight: 500;
+    margin: 12px 0;
+    color: #fff;
+}
+
+.interests ul li .icon{
+    color:aquamarine;
+    font-size: 18px;
+    width: 35px;
+}
