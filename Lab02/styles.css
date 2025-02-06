@@ -43,7 +43,6 @@ nav ul li a:hover {
 }
 
 .hero {
-<<<<<<< HEAD
   position: relative;
   height: 100vh;
   background-image: url('https://images5.alphacoders.com/120/1207344.jpg'); 
@@ -64,48 +63,16 @@ nav ul li a:hover {
   padding: 50px;
   border-radius: 15px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
-=======
-    position: relative;
-    height: 100vh;
-    background-image: url('https://images5.alphacoders.com/120/1207344.jpg'); 
-    background-size: 100% auto; /* Adjusts width while keeping height proportional */
-    background-position: center top;
-    background-size: cover;
-    background-position: center;
-    color: white;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: inset 0 0 300px rgba(0, 0, 0, 0.8); /* Dark shadow to enhance the atmosphere */
-    font-family: 'Garamond', serif; /* Classic font to match the Harry Potter vibe */
-}
-  
-.hero-content {
-  z-index: 1; /* Ensures the text is on top of the background */
-  background-color: rgba(0, 0, 0, 0.7); /* Dark, transparent background for readability */
-  padding: 50px;
-  border-radius: 15px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6); /* Add depth to the content */
->>>>>>> 5f53c499287a0b0a7b9369d1f2ef9b59192fbf1d
 }
 
 /* Header Title */
 .hero h1 {
   font-size: 3.5rem;
-<<<<<<< HEAD
   font-family: 'Garamond', serif;
   letter-spacing: 5px;
   margin-bottom: 20px;
   text-transform: uppercase;
   text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
-=======
-  font-family: 'Harry Potter', sans-serif; /* Harry Potter-inspired font */
-  letter-spacing: 5px;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6); /* Glowing shadow to create a magical effect */
->>>>>>> 5f53c499287a0b0a7b9369d1f2ef9b59192fbf1d
 }
 
 /* Header Description */
@@ -116,22 +83,14 @@ nav ul li a:hover {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
-<<<<<<< HEAD
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-=======
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Soft shadow to make the text pop */
->>>>>>> 5f53c499287a0b0a7b9369d1f2ef9b59192fbf1d
 }
 
 /* Call to Action Button */
 .cta-button {
   font-size: 1.4rem;
   font-weight: bold;
-<<<<<<< HEAD
   background-color: #4e2a84;
-=======
-  background-color: #4e2a84; /* Dark magical purple */
->>>>>>> 5f53c499287a0b0a7b9369d1f2ef9b59192fbf1d
   color: white;
   padding: 18px 30px;
   border-radius: 50px;
@@ -142,7 +101,6 @@ nav ul li a:hover {
 }
 
 .cta-button:hover {
-<<<<<<< HEAD
   background-color: #3b1f5f;
   transform: scale(1.05);
 }
@@ -176,45 +134,6 @@ nav ul li a:hover {
   }
 }
 
-=======
-  background-color: #3b1f5f; /* Darker purple for hover effect */
-  transform: scale(1.05); /* Slight zoom effect on hover */
-}
-
-.cta-button:active {
-  transform: scale(0.98); /* Shrink effect on click */
-}
-
-/* Animation for magical feel */
-@keyframes sparkle {
-  0% { transform: scale(1); opacity: 1; }
-  50% { transform: scale(1.1); opacity: 0.8; }
-  100% { transform: scale(1); opacity: 1; }
-}
-
-.cta-button:hover {
-  animation: sparkle 1s ease infinite; /* Adding a sparkle effect to the button */
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-  .hero h1 {
-    font-size: 2.5rem; /* Smaller text on mobile */
-  }
-
-  .hero p {
-    font-size: 1.1rem;
-  }
-
-  .cta-button {
-    font-size: 1.2rem;
-    padding: 12px 20px;
-  }
-}
-  
-
-/* Section Layout */
->>>>>>> 5f53c499287a0b0a7b9369d1f2ef9b59192fbf1d
 section {
   padding: 50px 20px;
   text-align: center;
@@ -244,7 +163,6 @@ section ul li {
   margin: 10px 0;
 }
 
-<<<<<<< HEAD
 #about {
   background-color: #f1e0a6;
   padding: 40px 20px;
@@ -253,298 +171,6 @@ section ul li {
   background-image: url('https://i.pinimg.com/736x/3b/12/3d/3b123d8ab644eb9b41da52f4001f6823.jpg');
   background-size: cover;
   background-position: center;
-=======
-/* About Section */
-#about {
-    background-color: #f1e0a6; /* Light buttery gold color to match the butterbeer theme */
-    padding: 40px 20px;
-    text-align: center;
-    font-family: 'Garamond', serif;
-    background-image: url('https://i.pinimg.com/736x/3b/12/3d/3b123d8ab644eb9b41da52f4001f6823.jpg'); /* Subtle scroll background for added magic */
-    background-size: cover;
-    background-position: center;
-  }
-  
-  #about .content {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.726); /* Slightly transparent background for content */
-    border-radius: 15px;
-    box-shadow: 0 4px 15px rgba(32, 32, 32, 0.2); /* Subtle shadow for floating effect */
-  }
-  
-  #about h2 {
-    font-size: 2.5rem;
-    color: #b57f33; /* Rich golden color */
-    margin-bottom: 20px;
-    font-family: 'Cursive', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-  }
-  
-  #about h3 {
-    font-size: 2rem;
-    color: #6a4e23; /* Darker brown for subheadings */
-    margin-top: 30px;
-    text-transform: capitalize;
-  }
-  
-  #about p {
-    font-size: 1.2rem;
-    color: #5a3d22; /* Dark brown text for paragraph */
-    line-height: 1.6;
-  }
-  
-  #about .team {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 40px;
-  }
-  
-  #about .team-member {
-    width: 180px;
-    text-align: center;
-  }
-  
-  #about .team-member img {
-    width: 100%;
-    border-radius: 50%;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow around the images */
-    transition: transform 0.3s ease;
-  }
-  
-  #about .team-member img:hover {
-    transform: scale(1.1); /* Slight zoom effect on hover */
-  }
-  
-  #about .team-member h4 {
-    font-size: 1.4rem;
-    color: #8e623d;
-    margin-top: 10px;
-  }
-  
-  #about .team-member p {
-    font-size: 1rem;
-    color: #9a6f47;
-  }
-  
-  #about .cta-btn {
-    background-color: #b57f33;
-    color: white;
-    font-size: 1.2rem;
-    padding: 12px 25px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    margin-top: 30px;
-    transition: background-color 0.3s ease;
-  }
-  
-  #about .cta-btn:hover {
-    background-color: #8e623d;
-  }
-  
-/* Services Section */
-#services {
-    background-color: #3e2723; /* Deep brown, parchment-like warmth */
-    padding: 51px;
-    text-align: center;
-    font-family: 'Garamond', serif;
-    color: #f5e1c8; /* Soft butterbeer cream color */
-  }
-  
-  #services .content {
-    max-width: 600px;
-    margin: 0 auto;
-  }
-  
-  #services h2 {
-    font-size: 2rem;
-    color: #d4a373; /* Warm gold to match contact theme */
-    margin-bottom: 16px;
-    font-family: 'Cursive', sans-serif;
-  }
-  
-  #services ul {
-    list-style-type: none;
-    padding: 0;
-    font-size: 1.2rem;
-    color: #f5e1c8; /* Light parchment color */
-  }
-  
-  #services li {
-    margin: 30px 0;
-    position: relative;
-    text-align: center;
-    transition: color 0.3s ease;
-  }
-  
-  #services li::before {
-    content: "✨"; /* Magical sparkle */
-    position: absolute;
-    left: -30px;
-    font-size: 1.3rem;
-    top: 50%;
-    transform: translateY(-50%);
-    color: #ffcc66; /* Softer golden sparkle */
-  }
-  
-  #services li:hover {
-    color: #e0b97d; /* Warmer shade on hover */
-    cursor: pointer;
-  }
-  
-  #services li:hover::before {
-    color: #ffdd99; /* Subtle magical glow effect */
-  }
-  
-  /* Call-to-Action Button */
-  #services .cta-btn {
-    background-color: #a36b2c; /* Warm golden brown */
-    color: white;
-    font-size: 1.1rem;
-    padding: 12px 22px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    margin: 10px 15px;
-    transition: background-color 0.3s ease, transform 0.2s;
-  }
-  
-  #services .cta-btn:hover {
-    background-color: #8e623d; /* Darker brown for vintage feel */
-  }
-  
-  #services .cta-btn:active {
-    transform: scale(0.97);
-  }
-  
-  /* Responsive Adjustments */
-  @media (max-width: 768px) {
-      #services h2 {
-        font-size: 1.8rem;
-      }
-      #services ul {
-        font-size: 1rem;
-      }
-      .cta-btn {
-        font-size: 1rem;
-        padding: 10px 20px;
-      }
-  }  
-
-/*Contact Section*/
-#contact {
-    background-color: #3e3b6e; /* Deep magical purple background */
-    padding: 53px;
-    text-align: center;
-    font-family: 'Garamond', serif; /* Elegant serif font resembling Hogwarts style */
-    color: #fff; /* White text for readability */
-}
-
-#contact .content {
-    max-width: 500px;
-    margin: 0 auto;
-}
-
-#contact h2 {
-    font-size: 2rem;
-    color: #f7d74b; /* Gold color to match Hogwarts house colors */
-    margin-top: 0;
-    margin-bottom: 5px;
-    font-family: 'Times New Roman', serif; /* Classic font style for a magical feel */
-}
-
-#contact p {
-    font-size: 1.1rem;
-    color: #e0e0e0; /* Light grey text for subtlety */
-    margin-bottom: 3px;
-}
-
-#contact a {
-    color: #7f5c3e; /* Dark brownish-gold to resemble Gryffindor and wizarding world colors */
-    text-decoration: none;
-    margin-bottom: 3px;
-}
-
-#contact a:hover {
-    text-decoration: underline;
-    color: #f7d74b; /* Hover color to match the gold */
-}
-
-#contact h3 {
-    font-size: 1.2rem;
-    color: #f7d74b; /* Gold color for headings */
-    margin-top: 10px;
-}
-
-.contact-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 15px;
-}
-
-.contact-form label {
-    font-size: 0.9rem;
-    margin: 3px 0;
-    color: #e0e0e0; /* Light grey text */
-}
-
-.contact-form input, .contact-form textarea {
-    width: 80%;
-    padding: 6px;
-    margin-bottom: 8px;
-    font-size: 0.9rem;
-    border: 2px solid #7f5c3e; /* Dark brown border for input fields */
-    border-radius: 4px;
-    background-color: #f5f5f5; /* Light parchment-like background */
-    color: #333; /* Dark text for readability */
-}
-
-.contact-form button {
-    background-color: #4a6f37; /* Dark green for a more magical look */
-    color: white;
-    border: none;
-    padding: 6px 12px;
-    font-size: 0.9rem;
-    border-radius: 4px;
-    cursor: pointer;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Subtle shadow for magical effect */
-    margin-bottom: 0;
-}
-
-.contact-form button:hover {
-    background-color: #c99d2c; /* Gold on hover for contrast */
-    box-shadow: 0 4px 10px rgba(0,0,0,0.3); /* Stronger shadow effect on hover */
-}
-
-@media (max-width: 768px) {
-    #contact h2 {
-        font-size: 1.2rem;
-    }
-
-    #contact p {
-        font-size: 0.7rem;
-    }
-
-    .contact-form input, .contact-form textarea {
-        font-size: 0.8rem;
-    }
-
-    .contact-form button {
-        font-size: 0.9rem;
-    }
-}
-
-/* Footer */
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 20px;
->>>>>>> 5f53c499287a0b0a7b9369d1f2ef9b59192fbf1d
 }
 
 #about .content {
